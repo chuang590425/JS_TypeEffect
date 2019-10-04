@@ -12,3 +12,4 @@ function type(){
 
 // 當網頁載入完成時執行方法 type
 document.addEventListener("DOMContentLoaded", type);
+setTimeout(type,speed);
